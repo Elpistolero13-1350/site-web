@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-162048272-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("js", new Date());
+      gtag("config", "UA-162048272-1");
+    </script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>YZ Bot</title>
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="shortcut icon" href="https://i.imgur.com/oznUwLQ.png" />
+    <meta
+      property="og:title"
+      content="YZ Bot 1.1.7 - Bot discord multi-fonction"
+    />
+    <meta
+      property="og:description"
+      content="Multi-fonction
+                                    YZ Bot le bot multi-fonction est 24h/24 7j/7 allumer."
+    />
+    <meta property="og:image" content="https://i.imgur.com/oznUwLQ.png" />
+    <meta property="og:url" content="https://yz-bot.glitch.me/" />
+  </head>
+  <body class="has-animations">
+    <div class="body-wrap">
+      <header class="site-header reveal-from-top">
+        <div class="container">
+          <div class="site-header-inner">
+            <div class="brand">
+              <h1 class="m-0">
+                <a href="/"
+                  ><img
+                    src="https://i.imgur.com/oznUwLQ.png"
+                    alt="Neon"
+                    width="32"
+                    height="32"
+                /></a>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="site-content">
+        <section class="hero section illustration-section-01">
+          <div class="container">
+            <div class="hero-inner section-inner">
+              <div class="split-wrap invert-mobile">
+                <div class="split-item">
+                  <center>
+                    <h3>Commandes</h3>
+                    <br />
+                    <br />
+                    <table>
+                      <thead class="tablehead">
+                        <tr>
+                          <th>Commande</th>
+                          <th>Description</th>
+                          <th>Usage</th>
+                          <th>Alias</th>
+                          <th>Permission</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>HELP</td>
+                          <td>
+                            Vous donne toute les commande sans descrption.
+                          </td>
+                          <td>stp help</td>
+                          <td>stp aide / stp h</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>PING</td>
+                          <td>Donne la latence du bot.</td>
+                          <td>stp ping</td>
+                          <td>stp p / stp pi / stp pong</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>USER-INFO</td>
+                          <td>
+                            Vous donne des information sur vous (peut-être des
+                            information que vous ne connaiser pas) et aussi vous
+                            pourez voir des infos sur d'autre membre.
+                          </td>
+                          <td>stp user-info (un membre)</td>
+                          <td>stp u-i</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>BOT-INFO</td>
+                          <td>Vous donne des information sur le bot.</td>
+                          <td>stp bot-info</td>
+                          <td>stp b-i</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>SITE-WEB</td>
+                          <td>Vous aurez un lien pour venir sur le site.</td>
+                          <td>stp site-web</td>
+                          <td>stp s-w</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>CLOSE</td>
+                          <td>Vous permer de supprimer un ticket.</td>
+                          <td>stp close</td>
+                          <td>AUCUN</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>VOTE</td>
+                          <td>Vous donne un lien pour voter pour le bot.</td>
+                          <td>stp vote</td>
+                          <td>AUCUN</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>BOT-INFO</td>
+                          <td>Vous donne des information sur le bot.</td>
+                          <td>stp bot-info</td>
+                          <td>stp b-i</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>SERVEUR-STATS</td>
+                          <td>Donne des information sur le serveur.</td>
+                          <td>stp server-stats</td>
+                          <td>stp s-s</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>INVITE</td>
+                          <td>
+                            Donne le lien d'invitation pour inviter le bot.
+                          </td>
+                          <td>stp invite</td>
+                          <td>AUCUN</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>
+                            SUPPORT
+                          </td>
+                          <td>
+                            Donne le lien d'invitation pour rejoindre le serveur
+                            de support
+                          </td>
+                          <td>stp join-serveur</td>
+                          <td>stp j-s</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>8BALL</td>
+                          <td>Demmander une question.</td>
+                          <td>stp 8ball (une question)</td>
+                          <td>stp 8 / stp ball / stp 8b</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>UPTIME</td>
+                          <td>Savoir depuis combien de temps de bot est on.</td>
+                          <td>stp uptime</td>
+                          <td>AUCUN</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>DOGD</td>
+                          <td>Vous donne un gif/image d'un chien drôle.</td>
+                          <td>stp dog-d</td>
+                          <td>stp d-d</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>DOG</td>
+                          <td>Vous donne un chien normal/mignon.</td>
+                          <td>stp dog</td>
+                          <td>stp d</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>CATD</td>
+                          <td>Vous donne un gif/image d'un chat drôle.</td>
+                          <td>stp cat-d</td>
+                          <td>stp c-d</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>CAT</td>
+                          <td>Vous donne un chat normal/mignon.</td>
+                          <td>stp cat</td>
+                          <td>stp c</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>FOXD</td>
+                          <td>Vous donne un gif/image d'un renard drôle.</td>
+                          <td>stp fox-d</td>
+                          <td>stp f-d</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>FOX</td>
+                          <td>Vous donne un renard normal/mignon.</td>
+                          <td>stp fox</td>
+                          <td>stp f</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>BIRDD</td>
+                          <td>Vous donne un gif/image d'un oiseau drôle.</td>
+                          <td>stp bird-d</td>
+                          <td>stp b-d</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>BIRD</td>
+                          <td>Vous donne un renard normal/mignon.</td>
+                          <td>stp bird</td>
+                          <td>stp b</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>MORPION</td>
+                          <td>
+                            Vous jouer a une partie de morpion avec une autre
+                            personne <br />(il faut attendre que quelqu'un
+                            mettent l'émoji (vous aussi) '⚔' et un salon vas ce
+                            créé) et (il faut attendre que tout les émoji (9)
+                            soit mis sur le message du morpion).
+                          </td>
+                          <td>stp morpion</td>
+                          <td>AUCUN</td>
+                          <td>AUCUNE</td>
+                        </tr>
+                        <tr>
+                          <td>PILE OU FACE</td>
+                          <td>
+                            Demander au bot choisir soit pile soit face (choix
+                            aléatoire)
+                          </td>
+                          <td>stp pile-ou-face</td>
+                          <td>stp pf</td>
+                          <td>AUCUN</td>
+                        </tr>
+                        <tr>
+                          <td>SONDAGE</td>
+                          <td>
+                            Faire un sondage et répondre par ✅ ou par ❌.
+                          </td>
+                          <td>
+                            stp sondage (le channel où il y aura le sondage) (le
+                            sondage)
+                          </td>
+                          <td>stp p / stp poll / stp s</td>
+                          <td>ADMINISTRATEUR</td>
+                        </tr>
+                        <tr>
+                          <td>SET-PREFIX</td>
+                          <td>
+                            Vous pouvez mettre le prfix que vous voulez sur YZ
+                            Bot (sur votre serveur).
+                          </td>
+                          <td>stp set-prefix (un prefix)</td>
+                          <td>stp s-p</td>
+                          <td>ADMINISTRATEUR</td>
+                        </tr>
+                        <tr>
+                          <td>WARN</td>
+                          <td>Vous permez de warn des membres.</td>
+                          <td>stp warn (un membre)</td>
+                          <td>AUCUN</td>
+                          <td>GERER LES MESSAGES</td>
+                        </tr>
+                        <tr>
+                          <td>DELETE-WARNS</td>
+                          <td>
+                            Vous permez de supprimer tout les warns d'un membre.
+                          </td>
+                          <td>stp delete-warn (un membre)</td>
+                          <td>stp d-w</td>
+                          <td>ADMINISTRATEUR</td>
+                        </tr>
+                        <tr>
+                          <td>TOTAL-WARNS</td>
+                          <td>
+                            Vous permez de voir tout les warns d'un membre.
+                          </td>
+                          <td>stp total-warns (un membre)</td>
+                          <td>stp t-w</td>
+                          <td>ADMINISTRATEUR</td>
+                        </tr>
+                        <tr>
+                          <td>BAN</td>
+                          <td>Bannir et débannir un membre.</td>
+                          <td>stp ban (un membre) (la raison(facultatif))</td>
+                          <td>stp b</td>
+                          <td>BANNIR DES MEMBRES</td>
+                        </tr>
+                        <tr>
+                          <td>TEMPBAN</td>
+                          <td>Bannir un membre pendant un moment.</td>
+                          <td>stp tempban (un member) (le temp du ban)</td>
+                          <td>stp tb</td>
+                          <td>BANNIR DES MEMBRES</td>
+                        </tr>
+                        <tr>
+                          <td>KICK</td>
+                          <td>Expulsser un membre.</td>
+                          <td>stp kick (un membre)</td>
+                          <td>stp k</td>
+                          <td>EXCLURE DES MEMBRES</td>
+                        </tr>
+                        <tr>
+                          <td>CLEAR</td>
+                          <td>
+                            Supprimer un nombre de message (minimum 5 / maximum
+                            100).
+                          </td>
+                          <td>stp clear (un nombre de messages)</td>
+                          <td>stp cl / stp purge</td>
+                          <td>GERE LES MESSAGES</td>
+                        </tr>
+                        <tr>
+                          <td>MUTE</td>
+                          <td>Permet de mute un membre</td>
+                          <td>stp mute (un membre)</td>
+                          <td>stp m</td>
+                          <td>METTRE MUET DES MEMBRES</td>
+                        </tr>
+                        <tr>
+                          <td>UNMUTE</td>
+                          <td>Permet de unmute un membre</td>
+                          <td>stp unmute (un membre)</td>
+                          <td>stp um</td>
+                          <td>METTRE MUET DES MEMBRES</td>
+                        </tr>
+                        <tr>
+                          <td>TEMPMUTE</td>
+                          <td>
+                            Permettre de mute un membre pour un certain temp.
+                          </td>
+                          <td>stp tempmute (un membre) (le temps (s/m/h/d))</td>
+                          <td>stp tm</td>
+                          <td>METTRE MUET DES MEMBRES</td>
+                        </tr>
+                        <tr>
+                          <td>GIVEAWAY</td>
+                          <td>
+                            Vous pouvez faire des giveaway avec temps, etc...
+                          </td>
+                          <td>
+                            stp start-g le salon ou sera le giveaway) (le temps
+                            du giveaway) (nombre de gagnant) (le lot du
+                            giveaway)
+                          </td>
+                          <td>stp s-g</td>
+                          <td>ADMINISTRATEUR</td>
+                        </tr>
+                        <tr>
+                          <td>REROLL-GIVEAWAY</td>
+                          <td>
+                            Vous pourrez relancer le tirage du gagnants du
+                            gagnant donc toruver un ou plussieurs nouveau(x)
+                            gagnant(s)
+                          </td>
+                          <td>
+                            stp reroll-g (l'id du message ou il y a le giveaway)
+                          </td>
+                          <td>
+                            stp r-g (l'id du message ou il y a le giveaway)
+                          </td>
+                          <td>AMINISTRATEUR</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </center>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer center-content-mobile">
+        <div class="container">
+          <div class="site-footer-inner">
+            <div class="footer-top space-between text-xxs">
+              <div class="brand">
+                <a href="/"
+                  ><img
+                    src="https://i.imgur.com/oznUwLQ.png"
+                    alt="Neon"
+                    width="32"
+                    height="32"
+                /></a>
+              </div>
+              <div class="footer-social">
+                <div></div>
+              </div>
+            </div>
+            <center>
+              <div class="brand">
+                <a href="/"
+                  ><img
+                    width="180"
+                    height="120"
+                    frameborder="0"
+                    src="https://top.gg/api/widget/status/787400372938735616.svg?rightcolor=26262B&leftcolor=000000&lefttextcolor=000000&noavatar=true"
+                    data-ll-status="loaded"
+                /></a>
+              </div>
+            </center>
+            <div class="footer-social">
+              <div></div>
+            </div>
+          </div>
+          <div
+            class="footer-bottom space-between text-xxs invert-order-desktop"
+          >
+            <nav class="footer-nav">
+              <ul class="list-reset">
+                <li>
+                  <a target="_blank" href="https://discord.gg/mTpzJ7ukkk"
+                    >Créer par Elpistolero13🔫#0666</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="footer-copyright">
+              &copy; 2020 YZ Bot corp, tout droits reserver
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/landing.js"></script>
+  </body>
+</html>
